@@ -14,9 +14,9 @@ make linux
 ```   
 
 ## Yosys :  
- > _**Definition:**_ Yosys is an open-source logic synthesis tool used for RTL (Register Transfer Level) design, primarily targeting FPGA and ASIC development. It supports Verilog and enables optimization, verification, and conversion of hardware designs.  
+ > * _**Definition:**_ Yosys is an open-source logic synthesis tool used for RTL (Register Transfer Level) design, primarily targeting FPGA and ASIC development. It supports Verilog and enables optimization, verification, and conversion of hardware designs.  
   
- > _**Significance:**_ Yosys is crucial for synthesizing and optimizing hardware designs, enabling efficient FPGA-based development, digital circuit verification, and overall design improvement.
+ > * _**Significance:**_ Yosys is crucial for synthesizing and optimizing hardware designs, enabling efficient FPGA-based development, digital circuit verification, and overall design improvement.
   
 Run the following command to install Yosys:      
 ```   
@@ -34,9 +34,9 @@ Yosys
 ```      
 
 ## GTKWave :  
- > _**Definition:**_ GTKWave is an open-source waveform viewer used for analyzing and debugging digital signal simulations, supporting formats like VCD, LXT, and FST.
+ > * _**Definition:**_ GTKWave is an open-source waveform viewer used for analyzing and debugging digital signal simulations, supporting formats like VCD, LXT, and FST.
   
- > _**Significance:**_ GTKWave aids in visualizing and debugging signal behaviors in digital designs, making it easier to verify and troubleshoot hardware simulations effectively.  
+ > * _**Significance:**_ GTKWave aids in visualizing and debugging signal behaviors in digital designs, making it easier to verify and troubleshoot hardware simulations effectively.  
   
 Run the following command to install GTKWave:     
 ```
@@ -46,9 +46,9 @@ $ sudo apt install gtkwave
 
 
 ## Icarus Verilog (Iverilog) :   
- > _**Definition:**_ Icarus Verilog (Iverilog) is an open-source Verilog simulation and synthesis tool used for compiling, simulating, and testing Verilog hardware descriptions.   
+ > * _**Definition:**_ Icarus Verilog (Iverilog) is an open-source Verilog simulation and synthesis tool used for compiling, simulating, and testing Verilog hardware descriptions.   
   
- > _**Significance:**_ It is essential for verifying Verilog designs, enabling efficient simulation, debugging of logic errors, and ensuring correct hardware behavior before synthesis.   
+ > * _**Significance:**_ It is essential for verifying Verilog designs, enabling efficient simulation, debugging of logic errors, and ensuring correct hardware behavior before synthesis.   
   
 Run the following command to install Iverilog:   
 ```
