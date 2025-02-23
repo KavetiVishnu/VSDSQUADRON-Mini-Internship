@@ -1,4 +1,6 @@
-#  TASK1 - COMPILING C PROGRAMME USING RISCV COMPILER
+#  TASK1 - COMPILING C PROGRAMME USING RISCV COMPILER  
+The command `gedit sum.c` opens (or creates if it doesn't exist) the `sum.c` file in the Gedit text editor, allowing users to write or modify a C program before compilation.
+  
 ```
 gedit sum.c
 ```
