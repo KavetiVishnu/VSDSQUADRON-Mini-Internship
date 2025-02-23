@@ -1,5 +1,5 @@
 #  TASK1 - COMPILING C PROGRAMME USING RISCV COMPILER  
-The command **`gedit sum.c`** opens (or creates if it doesn't exist) the **`sum.c`** file in the Gedit text editor, allowing users to write or modify a C program before compilation.
+> * The command **`gedit sum.c`** opens (or creates if it doesn't exist) the **`sum.c`** file in the Gedit text editor, allowing users to write or modify a C program before compilation.
   
 ```
 gedit sum.c
@@ -8,7 +8,7 @@ gedit sum.c
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/df65174d-a3c6-4080-9b62-e1428a524f74" />      
 
 
-The command **`gcc sum.c`** compiles the C program, and  **`./a.out`** executes it, producing an output of `55` as the sum of numbers from 1 to 10.   
+> * The command **`gcc sum.c`** compiles the C program, and  **`./a.out`** executes it, producing an output of `55` as the sum of numbers from 1 to 10.   
     
 ```
 gcc sum.c
