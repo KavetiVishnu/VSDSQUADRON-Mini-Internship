@@ -68,7 +68,10 @@ $riscv64-unknown-elf-objdump -d sum.o | less
    
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/f887a418-5281-4f85-afb2-a2afde7a7220" />     
 
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/c8abcacb-19f9-4a54-ad20-288d7b5848e3" />  
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/c8abcacb-19f9-4a54-ad20-288d7b5848e3" />     
+
+<img width="1112" alt="image" src="https://github.com/user-attachments/assets/255b7342-2794-4d69-a427-c8ca65dd02d8" />
+
   
 
 
