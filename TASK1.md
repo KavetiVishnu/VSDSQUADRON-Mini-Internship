@@ -17,7 +17,12 @@ cat sum.c
 ```
 
 
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/f5c10dbf-6bbd-4931-a34d-0ffdd8ed2d8f" />      
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/f5c10dbf-6bbd-4931-a34d-0ffdd8ed2d8f" />          
+
+```
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c
+riscv64-unknown-elf-objdump -d sum.o
+```  
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/60df8dff-556b-46a5-b554-18796ae65332" />   
 
