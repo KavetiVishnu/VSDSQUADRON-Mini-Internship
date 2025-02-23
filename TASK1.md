@@ -1,9 +1,9 @@
 # TASK-1
 
 ## RISC-V GNU Toolchain : 
- > _**Definition:**_ The RISC-V GNU Toolchain is a suite of development tools, including GCC, Binutils, GDB, and Newlib, used for compiling, debugging, and building software for RISC-V architectures.  
+ > *  _**Definition:**_ The RISC-V GNU Toolchain is a suite of development tools, including GCC, Binutils, GDB, and Newlib, used for compiling, debugging, and building software for RISC-V architectures.  
   
- > _**Significance:**_ This toolchain is crucial for writing, compiling, and debugging code on RISC-V-based systems, enabling efficient embedded development, performance optimization, and low-level programming.   
+ > * _**Significance:**_ This toolchain is crucial for writing, compiling, and debugging code on RISC-V-based systems, enabling efficient embedded development, performance optimization, and low-level programming.   
   
 Run the following command to install the GNU Toolchain:   
 ```
