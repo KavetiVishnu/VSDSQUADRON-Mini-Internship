@@ -50,13 +50,12 @@ $riscv64-unknown-elf-objdump -d sum.o | less
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-```
 > * The command  **`riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum.o sum.c`** compiles **`sum.c`** for the RISC-V architecture with the highest optimization level (`-Ofast`), using the LP64 ABI and RV64I architecture. 
       
 > * The command **`riscv64-unknown-elf-objdump -d sum.o`** disassembles the object file to inspect the generated assembly instructions.     
 
-> * Using **`riscv64-unknown-elf-objdump -d sum.o | less`** allows for easier navigation through the disassembled output, making it convenient to analyze the **`/main`** function.  
-
+> * Using **`riscv64-unknown-elf-objdump -d sum.o | less`** allows for easier navigation through the disassembled output, making it convenient to analyze the **`/main`** function.      
+```
 $riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum.o sum.c
 $riscv64-unknown-elf-objdump -d sum.o
 $riscv64-unknown-elf-objdump -d sum.o | less  
