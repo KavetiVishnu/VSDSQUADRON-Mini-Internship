@@ -1,9 +1,16 @@
 #TASK-1
 
+**RISC-V GNU Toolchain :** 
+
+Definition: The RISC-V GNU Toolchain is a suite of development tools, including GCC, Binutils, GDB, and Newlib, used for compiling, debugging, and building software for RISC-V architectures.
+Significance: This toolchain is crucial for writing, compiling, and debugging code on RISC-V-based systems, enabling efficient embedded development, performance optimization, and low-level programming.
 
 
 
+Yosys :
 
+Definition: Yosys is an open-source logic synthesis tool used for RTL (Register Transfer Level) design, primarily targeting FPGA and ASIC development. It supports Verilog and enables optimization, verification, and conversion of hardware designs.
+Significance: In my internship, Yosys plays a key role in synthesizing and optimizing hardware designs, allowing me to work on FPGA-based projects, verify digital circuits, and improve design efficiency.
 
 
 
