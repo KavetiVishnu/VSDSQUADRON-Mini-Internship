@@ -23,7 +23,7 @@ cat sum.c
 ```
 
 
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/f5c10dbf-6bbd-4931-a34d-0ffdd8ed2d8f" />               
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/f5c10dbf-6bbd-4931-a34d-0ffdd8ed2d8f" />                          
 > * The command `riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c` compiles `sum.c` for the RISC-V architecture with optimization level `O1`, using the LP64 ABI and RV64I architecture.    
 
 > * The command `riscv64-unknown-elf-objdump -d sum.o` disassembles the compiled object file to inspect its assembly instructions.    
