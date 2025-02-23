@@ -1,5 +1,5 @@
 #  TASK1 - COMPILING C PROGRAMME USING RISCV COMPILER  
-> * The command **`gedit sum.c`** opens (or creates if it doesn't exist) the **`sum.c`** file in the Gedit text editor, allowing to write or modify a C program before compilation.
+* The command **`gedit sum.c`** opens (or creates if it doesn't exist) the **`sum.c`** file in the Gedit text editor, allowing to write or modify a C program before compilation.
   
 ```
 gedit sum.c
@@ -10,7 +10,7 @@ gedit sum.c
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-> * The command **`gcc sum.c`** compiles the C program, and  **`./a.out`** executes it, producing an output of `55` as the sum of numbers from 1 to 10.   
+* The command **`gcc sum.c`** compiles the C program, and  **`./a.out`** executes it, producing an output of `55` as the sum of numbers from 1 to 10.   
     
 ```
 gcc sum.c
@@ -21,7 +21,7 @@ gcc sum.c
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
-> * The command **`cat sum.c`** displays the contents of the **`sum.c`** file in the terminal, allowing to view the C program without opening an editor.  
+* The command **`cat sum.c`** displays the contents of the **`sum.c`** file in the terminal, allowing to view the C program without opening an editor.  
 ```
 cat sum.c
 ```
@@ -32,11 +32,11 @@ cat sum.c
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
      
-> * The command **`riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c`** compiles **`sum.c`** for the RISC-V architecture with optimization level **`O1`**, using the LP64 ABI and RV64I architecture.    
+* The command **`riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c`** compiles **`sum.c`** for the RISC-V architecture with optimization level **`O1`**, using the LP64 ABI and RV64I architecture.    
 
-> * The command **`riscv64-unknown-elf-objdump -d sum.o`** disassembles the compiled object file to inspect its assembly instructions.       
+* The command **`riscv64-unknown-elf-objdump -d sum.o`** disassembles the compiled object file to inspect its assembly instructions.       
 
-> * Using **`riscv64-unknown-elf-objdump -d sum.o | less`** allows for scrolling through the disassembled output, making it easier to analyze functions like **`/main`**.      
+* Using **`riscv64-unknown-elf-objdump -d sum.o | less`** allows for scrolling through the disassembled output, making it easier to analyze functions like **`/main`**.      
 
 
 ```
