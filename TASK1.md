@@ -22,6 +22,8 @@ cat sum.c
 ```
 riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum.o sum.c
 riscv64-unknown-elf-objdump -d sum.o
+$riscv64-unknown-elf-objdump -d sum.o | less
+/main
 ```  
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/60df8dff-556b-46a5-b554-18796ae65332" />   
