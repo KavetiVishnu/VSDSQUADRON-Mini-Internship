@@ -1,5 +1,4 @@
-# TASK2 
-# Comparing Optimization Flags: -O1 vs -Ofast in SPIKE Simulation 
+# TASK2-Comparing Optimization Flags: -O1 vs -Ofast in SPIKE Simulation 
 
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/8d56fc3f-b33b-44eb-9088-9deafd606235" />   
 
