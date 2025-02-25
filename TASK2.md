@@ -26,10 +26,10 @@ cat ha.c
 <img width="1118" alt="image" src="https://github.com/user-attachments/assets/e168ba15-2ad4-429c-a427-28f9c111c815" />      
 
 ```
-$ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
-$ riscv64-unknown-elf-objdump -d sum1ton.o | less
-$ spike pk sum1ton.o
-$ spike -d pk sum1ton.o
+$ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o ha.o ha.c
+$ riscv64-unknown-elf-objdump -d ha.o | less
+$ spike pk ha.o
+$ spike -d pk ha.o
 ```
 
 
@@ -38,10 +38,10 @@ $ spike -d pk sum1ton.o
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/f3cf1d74-a338-4603-b7b0-3e4d57c43a00" />    
 
 ```
-$ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
-$ riscv64-unknown-elf-objdump -d sum1ton.o | less
-$ spike pk sum1ton.o
-$ spike -d pk sum1ton.o
+$ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o ha.o ha.c
+$ riscv64-unknown-elf-objdump -d ha.o | less
+$ spike pk ha.o
+$ spike -d pk ha.o
 ```   
 
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/ae09a731-ce9a-43eb-b821-7f22aba9754d" />    
