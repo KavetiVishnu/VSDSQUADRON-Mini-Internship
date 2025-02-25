@@ -16,7 +16,7 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/8938bf862890063faa56e395011558d98dd1ae1c/TASK2.md">**TASK2**</a> **:Debugging C Code Using SPIKE Simulation and Interactive Debugging Mode.**        
 
-## My Implementation Approach for TASK2 : 
+## My Implementation Approach for Task 2 :  
 
 **step-1:** _Initially, I started by writing a C program to implement a half-adder. After completing the code, I compiled and executed it using gcc and ./a.out to verify its correctness._
 
