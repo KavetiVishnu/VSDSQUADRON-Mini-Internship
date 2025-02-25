@@ -23,7 +23,9 @@ gcc ha.c
 cat ha.c
 ```   
 
-<img width="1118" alt="image" src="https://github.com/user-attachments/assets/e168ba15-2ad4-429c-a427-28f9c111c815" />      
+<img width="1118" alt="image" src="https://github.com/user-attachments/assets/e168ba15-2ad4-429c-a427-28f9c111c815" />          
+
+## SPIKE Simulation with -O1 Optimization
 
 ```
 $ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o ha.o ha.c
