@@ -35,7 +35,14 @@ $ spike -d pk sum1ton.o
 
 <img width="1118" alt="image" src="https://github.com/user-attachments/assets/0b0d65fb-3d60-4723-98b7-81387df5aacc" />    
 
-<img width="1120" alt="image" src="https://github.com/user-attachments/assets/f3cf1d74-a338-4603-b7b0-3e4d57c43a00" />
+<img width="1120" alt="image" src="https://github.com/user-attachments/assets/f3cf1d74-a338-4603-b7b0-3e4d57c43a00" />    
+
+```
+$ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+$ riscv64-unknown-elf-objdump -d sum1ton.o | less
+$ spike pk sum1ton.o
+$ spike -d pk sum1ton.o
+```   
 
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/ae09a731-ce9a-43eb-b821-7f22aba9754d" />    
 
