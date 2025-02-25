@@ -7,8 +7,9 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/e912ae0a2eb57db06ed19a972eeaaf69ce7fcf5f/TASK1.md">**TASK1**</a> **:Set up the RISC-V toolchain using the VDI file. Write a basic C program to compute the sum of numbers from 1 to n. First, compile and run the program using the standard GCC compiler to verify the output. Then, recompile the same code using the RISC-V GCC compiler to examine the generated instructions and compare the differences.**
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
-<a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/8938bf862890063faa56e395011558d98dd1ae1c/TASK2.md">**TASK2**</a>       
-## My Implementation Approach : 
+<a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/8938bf862890063faa56e395011558d98dd1ae1c/TASK2.md">**TASK2**</a> **:Debugging C Code Using SPIKE Simulation and Interactive Debugging Mode.**        
+
+## * My Implementation Approach : 
 
 **step-1:** _Initially, I started by writing a C program to implement a half-adder. After completing the code, I compiled and executed it using gcc and ./a.out to verify its correctness._
 
