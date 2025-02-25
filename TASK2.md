@@ -23,7 +23,14 @@ gcc ha.c
 cat ha.c
 ```   
 
-<img width="1118" alt="image" src="https://github.com/user-attachments/assets/e168ba15-2ad4-429c-a427-28f9c111c815" />
+<img width="1118" alt="image" src="https://github.com/user-attachments/assets/e168ba15-2ad4-429c-a427-28f9c111c815" />      
+
+```
+$ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+$ riscv64-unknown-elf-objdump -d sum1ton.o | less
+$ spike pk sum1ton.o
+$ spike -d pk sum1ton.o
+```
 
 
 <img width="1118" alt="image" src="https://github.com/user-attachments/assets/0b0d65fb-3d60-4723-98b7-81387df5aacc" />    
