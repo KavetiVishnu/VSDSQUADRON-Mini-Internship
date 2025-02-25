@@ -37,7 +37,9 @@ $ spike -d pk ha.o
 
 <img width="1118" alt="image" src="https://github.com/user-attachments/assets/0b0d65fb-3d60-4723-98b7-81387df5aacc" />    
 
-<img width="1120" alt="image" src="https://github.com/user-attachments/assets/f3cf1d74-a338-4603-b7b0-3e4d57c43a00" />    
+<img width="1120" alt="image" src="https://github.com/user-attachments/assets/f3cf1d74-a338-4603-b7b0-3e4d57c43a00" />       
+
+## SPIKE Simulation with -Ofast Optimization
 
 ```
 $ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o ha.o ha.c
