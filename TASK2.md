@@ -6,6 +6,10 @@ The SPIKE simulator is an emulation tool for the RISC-V Instruction Set Architec
 
 * _**-Ofast:** This level activates all -O3 optimizations along with extra aggressive enhancements that maximize performance, even if it means bending some language standards. It is best used in scenarios where achieving the highest possible speed is more critical than strict standard adherence._
 
+```
+gedit ha.c
+```
+
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/8d56fc3f-b33b-44eb-9088-9deafd606235" />   
 
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/a5fb48f5-04f8-459f-865f-9fe81645b12e" />        
