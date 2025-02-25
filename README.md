@@ -6,7 +6,7 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 
 ## <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/e912ae0a2eb57db06ed19a972eeaaf69ce7fcf5f/TASK1.md">**_RISC-V Toolchain Configuration and C Code Compilation Using GCC and RISC-V Compilers._**</a>
 
-## My Implementation Approach for <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/e912ae0a2eb57db06ed19a972eeaaf69ce7fcf5f/TASK1.md">**TASK1:**</a>    
+## My Implementation Approach for <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/e912ae0a2eb57db06ed19a972eeaaf69ce7fcf5f/TASK1.md">**TASK1**</a> :
 **step-1:** _I started by setting up the RISC-V toolchain using the VDI file. Then, I wrote a C program to compute the sum of numbers from 1 to n._
 
 **step-2:** _First, I compiled and executed the program using the standard GCC compiler to verify the output. After confirming correctness, I recompiled it using the RISC-V GCC compiler._   
