@@ -24,3 +24,4 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 
 **step-3:** _After that, I performed a comparison with -Ofast optimization by recompiling the program with the -Ofast flag. I repeated the disassembly and SPIKE simulation steps to observe the performance differences between -O1 and -Ofast optimizations._
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
