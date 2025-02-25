@@ -15,7 +15,7 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
-## <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/8938bf862890063faa56e395011558d98dd1ae1c/TASK2.md">**2.**</a> _Debugging C Code Using SPIKE Simulation and Interactive Debugging Mode._        
+## <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/8938bf862890063faa56e395011558d98dd1ae1c/TASK2.md">**2._Debugging C Code Using SPIKE Simulation and Interactive Debugging Mode._**</a> 
 
 ## My Implementation Approach for <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/8938bf862890063faa56e395011558d98dd1ae1c/TASK2.md">**TASK2**</a>  :  
 
