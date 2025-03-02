@@ -42,7 +42,7 @@ _**Functionality:**_ Used for jump and link operations, commonly for function ca
 _**Example:**_ jal x1, 100  ; Jump to PC + 100 and store return address in x1      
 
 
-## 1. addi sp, sp, -32
+## 1. addi sp, sp, -32   (10184)
    
 ```
 Type = I-type instruction
