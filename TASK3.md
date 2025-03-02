@@ -69,8 +69,17 @@ opcode = 0100011 (for store instructions)
 #32-bit Instruction:    
 ![image](https://github.com/user-attachments/assets/bea25d1c-05f5-448d-83b0-e1986f5ca0db)
 
-
-
+## 3. sw zero, -20(s0) (10194)
+```
+Type = I-type Format (for Store Word (sw) instruction)
+imm[11:0] = 1111111111111100 (in two's complement for -20).
+rs2 = 00000 (zero register).
+rs1 = 01000 (s0 register).
+funct3 = 010 (for sw).
+opcode = 0100011 (store instruction opcode)
+```
+#32-bit Instruction:   
+![image](https://github.com/user-attachments/assets/5e908fcd-3d63-45bd-a1ae-5240e91315e7)
 
 
 
