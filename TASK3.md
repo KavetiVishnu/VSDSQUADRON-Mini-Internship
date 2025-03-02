@@ -288,7 +288,30 @@ rd = 01011 (a5 register)
 opcode = 0110011 (R-type for and)
 ```
 #32-bit Instruction:   
-![image](https://github.com/user-attachments/assets/9f81353a-41c9-449b-8b6a-048f984a02a2)
+![image](https://github.com/user-attachments/assets/9f81353a-41c9-449b-8b6a-048f984a02a2)    
+
+## 12. auipc t1, 0x0   
+```
+imm[31:12] = 000000000000 (shifted immediate value).
+rd = 00110 (t1 register).
+opcode = 0010111 (for auipc).
+```
+#32-bit Instruction:     
+![image](https://github.com/user-attachments/assets/c8dd7131-c6db-410f-9504-fdd48570301f)    
+
+## 13. jr zero #0   
+```
+Type = JALR (Jump and Link Register) instruction
+imm[11:0] = 000000000000 (immediate value 0)
+rs1 = 00000 (x0 register)
+funct3 = 000 (JALR)
+rd = 00000 (x0 register)
+opcode = 1100111 (JALR instruction)
+```
+#32-bit Instruction:       
+![image](https://github.com/user-attachments/assets/1b62d7b4-91df-4104-ae6a-228138c39030)
+
+
 
 
 
