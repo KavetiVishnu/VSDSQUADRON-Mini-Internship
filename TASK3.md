@@ -57,6 +57,17 @@ opcode = 0010011 (for addi instruction)
 ![image](https://github.com/user-attachments/assets/5884e2e5-8b7c-4c95-80be-740e58d752f5)
 
 
+## 2. sd ra, 24(sp)  (10188)
+```
+Type = I-type Format (for Store Doubleword (sd) instruction)  
+imm[11:0] = 0000000000011000 (24 in binary)
+rs2 = 00001 (ra register)
+rs1 = 00010 (sp register)
+funct3 = 011
+opcode = 0100011 (for store instructions)
+```
+#32-bit Instruction:    
+![image](https://github.com/user-attachments/assets/bea25d1c-05f5-448d-83b0-e1986f5ca0db)
 
 
 
