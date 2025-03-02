@@ -197,7 +197,7 @@ opcode = 1100011 (branch instruction opcode)
 #32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/df046b80-8b11-4b77-93f8-7f9c20ca2113)
 
-## 8. mv a2, a4   
+## 9. mv a2, a4   
 ```
 The instruction mv a2, a4 in RISC-V is a Move instruction, which copies the value from register a4 (register 10) to register a2 (register 8).
 
@@ -221,7 +221,7 @@ opcode = 0010011 (addi instruction)
 #32-bit Instruction:     
 ![image](https://github.com/user-attachments/assets/7c387bf6-3208-4b33-a0e8-4a3b1c44928d)   
 
-## 9. xor a5,a4,a5
+## 10. xor a5,a4,a5
 ```
 The instruction xor a5, a4, a5 in RISC-V is an XOR instruction that performs a bitwise XOR between the values in registers a4 and a5, and stores the result in register a5.
 
@@ -244,7 +244,7 @@ opcode = 0110011 (R-type for xor)
 #32-bit Instruction:    
 ![image](https://github.com/user-attachments/assets/7d932eeb-9f40-43be-bb23-2e53565bda56)
 
- ## 10. lui a0,a5,480  
+ ## 11. lui a0,a5,480  
  ```
 The instruction lui a0, a5, 480 is not valid in RISC-V. The LUI (Load Upper Immediate) instruction only takes a single register and an immediate as operands. The format for the LUI instruction is:
 
@@ -266,7 +266,7 @@ opcode = 0110111 (LUI instruction)
 #32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/d2442c86-2ddc-4272-9d18-04d81cb5f706)    
 
-## 11. and a5, a4, a5   
+## 12. and a5, a4, a5   
 ```
 The instruction and a5, a4, a5 in RISC-V is an AND instruction that performs a bitwise AND operation between the values in registers a4 and a5, and stores the result in register a5.
 
@@ -290,7 +290,7 @@ opcode = 0110011 (R-type for and)
 #32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/9f81353a-41c9-449b-8b6a-048f984a02a2)    
 
-## 12. auipc t1, 0x0   
+## 13. auipc t1, 0x0   
 ```
 Type  = Add Upper Immediate to PC (AUIPC)
 imm[31:12] = 000000000000 (shifted immediate value).
@@ -300,7 +300,7 @@ opcode = 0010111 (for auipc).
 #32-bit Instruction:     
 ![image](https://github.com/user-attachments/assets/c8dd7131-c6db-410f-9504-fdd48570301f)    
 
-## 13. jr zero #0   
+## 14. jr zero #0   
 ```
 Type = JALR (Jump and Link Register) instruction
 imm[11:0] = 000000000000 (immediate value 0)
@@ -312,7 +312,7 @@ opcode = 1100111 (JALR instruction)
 #32-bit Instruction:       
 ![image](https://github.com/user-attachments/assets/1b62d7b4-91df-4104-ae6a-228138c39030)
 
-## 14. beqz a5, 100cb   
+## 15. beqz a5, 100cb   
 ```
 Type = Branch if Equal to Zero (BEQZ)
 imm[12] = 0 (most significant bit of the 12-bit immediate).
@@ -326,25 +326,6 @@ opcode = 1100011 (for the beq instruction).
 ```
 #32-bit Instruction:      
 ![image](https://github.com/user-attachments/assets/41943549-d359-4c5e-a2be-0e77ad5ee48c)   
-
-## 15. lui a5, 0x2b   
-```
-Type = Load Upper Immediate (LUI)
-
-opcode: The opcode for LUI is 0110111.
-rd: The destination register is a5 (register 15) → 01111.
-imm: The immediate value is 0x2b. The immediate value is shifted by 12 bits (because it is a 20-bit immediate for LUI), which means we multiply the immediate by 4096 (2^12). In this case:
-0x2b becomes 0x2b000 when shifted left by 12 bits.
-funct3: This is 000 for the LUI instruction (not used in this case).
-funct7: This is also 0000000 for the LUI instruction.
-
-Final 32-bit Instruction for lui a5, 0x2b:
-imm[31:12] = 0000000000101011 (shifted value of 0x2b).
-rd = 01111 (a5 register).
-opcode = 0110111 (LUI instruction).
-```
-#32-bit Instruction:   
-![image](https://github.com/user-attachments/assets/cbdf11f1-0052-4cdf-a2d4-422f878325f2)  
 
 
 
