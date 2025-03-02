@@ -31,11 +31,13 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 
 ## My Implementation Approach for <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/c50db42157cc7190ab60296c14ac2f27b4b6c632/TASK3.md">**TASK3:**</a>        
 
-**step-1:** _In Step 1, I extensively studied the RISC-V Instruction Set Architecture (ISA) using resources from Google books and academic papers. I thoroughly learned each instruction format, analyzed examples, and grasped the underlying principles of the ISA. This deep understanding empowered me to confidently identify, interpret, and explain 15 unique RISC-V instructions, which were essential for the subsequent tasks in my implementation._   
+**step-1:** _In Step 1, I extensively studied the RISC-V Instruction Set Architecture (ISA) using resources from Google books and academic papers. I thoroughly learned each instruction format, analyzed examples, and grasped the underlying principles of the ISA. This deep understanding empowered me to confidently identify, interpret, and explain 15 unique RISC-V instructions, which were essential for the subsequent tasks in my implementation._     
 
-**step-2:**      
+**step-2:** _In Step 2, I analyzed the riscv-objdump output generated from the executions of Task 1 and Task 2. During this analysis, I identified and extracted 15 unique RISC-V instructions that were used in both tasks. This step helped in solidifying my understanding of the instructions and their formats as I reviewed the actual machine-level implementations._  
+    
+**step-3:** _In Step 3, I carefully identified and provided clear explanations for the 15 unique RISC-V instructions in Task 3. I broke down each instruction's functionality, purpose, and its impact on the overall execution of the application. This step involved ensuring that each instruction was thoroughly understood and could be explained with precision in the context of Task 3._   
 
-**step-3:**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
 
