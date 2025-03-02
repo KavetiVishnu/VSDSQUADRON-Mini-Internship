@@ -244,7 +244,7 @@ opcode = 0110011 (R-type for xor)
 #32-bit Instruction:    
 ![image](https://github.com/user-attachments/assets/7d932eeb-9f40-43be-bb23-2e53565bda56)
 
- ## 9. lui a0,a5,480  
+ ## 10. lui a0,a5,480  
  ```
 The instruction lui a0, a5, 480 is not valid in RISC-V. The LUI (Load Upper Immediate) instruction only takes a single register and an immediate as operands. The format for the LUI instruction is:
 
