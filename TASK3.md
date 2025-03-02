@@ -244,7 +244,29 @@ opcode = 0110011 (R-type for xor)
 #32-bit Instruction:    
 ![image](https://github.com/user-attachments/assets/7d932eeb-9f40-43be-bb23-2e53565bda56)
 
-  
+ ## 9. lui a0,a5,480  
+ ```
+The instruction lui a0, a5, 480 is not valid in RISC-V. The LUI (Load Upper Immediate) instruction only takes a single register and an immediate as operands. The format for the LUI instruction is:
+
+lui rd, imm
+rd is the destination register.
+imm is a 20-bit immediate that is loaded into the upper 20 bits of the destination register, and the lower 12 bits are set to zero.
+
+lui a0, 480
+Breakdown of lui a0, 480:
+Opcode: The opcode for LUI is 0110111.
+rd: The destination register is a0 (register 10) → 01010.
+imm: The immediate value is 480. In binary, 480 is 000000000111100000 in a 20-bit representation.
+
+Final 32-bit Instruction for lui a0, 480:
+imm[19:0] = 000000000111100000
+rd = 01010 (a0 register)
+opcode = 0110111 (LUI instruction)
+```
+#32-bit Instruction:   
+![image](https://github.com/user-attachments/assets/d2442c86-2ddc-4272-9d18-04d81cb5f706)
+
+ 
 
 
 
