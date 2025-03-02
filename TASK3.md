@@ -165,7 +165,7 @@ imm[19:1] = 00000000000000011000 (the 19-bit immediate for the offset).
 rd = 00000 (because j does not use a return address register).
 opcode = 1101111 (for jump instruction).
 ```
-#32-bit Instruction:
+#32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/2aa6d2e6-b1a9-4e5d-989e-d8c695e3a4a9)
 
 
