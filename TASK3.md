@@ -28,3 +28,15 @@ _**Example:**_ addi x5, x1, 10  ; x5 = x1 + 10
 ## _3. S-Type (Store)_
 _**Functionality:**_ Handles store instructions, where data from a register is written to memory.   
 _**Example:**_ sw x5, 20(x1)  ; Store word from x5 to memory address (x1 + 20)   
+
+## _4. B-Type (Branch)_
+_**Functionality:**_ Used for conditional branching based on register comparisons.     
+_**Example:**_beq x1, x2, 16  ; If x1 == x2, branch to PC + 16     
+
+## _5. U-Type (Upper Immediate)_
+_**Functionality:**_ Used for loading large immediate values into registers.     
+_**Example:**_lui x5, 0x12345  ; Load upper immediate 0x12345000 into x5   
+
+## _6. J-Type (Jump)_
+_**Functionality:**_ Used for jump and link operations, commonly for function calls and control flow changes.     
+_**Example:**_ jal x1, 100  ; Jump to PC + 100 and store return address in x1
