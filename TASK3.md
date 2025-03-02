@@ -54,7 +54,6 @@ opcode = 0010011 (for addi instruction)
 ```
 
 #32-bit Instruction:
-
 ![image](https://github.com/user-attachments/assets/5884e2e5-8b7c-4c95-80be-740e58d752f5)
 
 
