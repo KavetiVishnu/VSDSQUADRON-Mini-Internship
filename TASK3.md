@@ -19,6 +19,6 @@ The RISC-V Instruction Set Architecture (ISA) defines six standard instruction f
 
 ## _1. R-Type (Register-Register)_   
 _**Functionality:**_  Used for arithmetic and logical operations that involve two source registers and one destination register.  
-_**Example:**_
+_**Example:**_  
 add x5, x1, x2   
 x5 = x1 + x2
