@@ -143,6 +143,30 @@ opcode = 0110011 (R-type for addw)
 ![image](https://github.com/user-attachments/assets/47feb334-5037-4c2c-ab09-778e7446bda8)
 
 
+## 7. j 101c8   
+```
+The instruction j 101c8 is a Jump (J-type) instruction in RISC-V. It performs an unconditional jump to the address PC + 101c8
+
+opcode: The opcode for the j instruction (which is the JAL instruction in RISC-V) is 1101111.
+Immediate: The immediate value is 101c8 (which is 0x101c8 in hexadecimal) and represents the target address offset.
+The target address is calculated relative to the current program counter (PC). The immediate in J-type is a signed 20-bit value, and the offset is shifted by 1 (because RISC-V uses word addressing, which is 4 bytes).
+
+Immediate Calculation:
+Immediate = 101c8 in hexadecimal = 6648 in decimal.
+Since the offset is divided by 2 in the instruction, we get 6648 / 2 = 3324.
+Convert 3324 to a 20-bit signed value for the immediate in the J-type format.
+
+J-type Format:  
+imm[19:1]: The 19-bit immediate value, excluding the least significant bit.
+rd: The destination register for the return address, which is register x0 (always zero) in the j instruction (since it doesn't store a return address like jal does).
+opcode: The opcode for JAL is 1101111.
+ 
+imm[19:1] = 00000000000000011000 (the 19-bit immediate for the offset).
+rd = 00000 (because j does not use a return address register).
+opcode = 1101111 (for jump instruction).
+```
+#32-bit Instruction:
+![image](https://github.com/user-attachments/assets/2aa6d2e6-b1a9-4e5d-989e-d8c695e3a4a9)
 
 
 
