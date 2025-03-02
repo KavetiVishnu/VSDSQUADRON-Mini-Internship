@@ -21,3 +21,6 @@ The RISC-V Instruction Set Architecture (ISA) defines six standard instruction f
 _**Functionality:**_  Used for arithmetic and logical operations that involve two source registers and one destination register.  
 _**Example:**_  add x5, x1, x2 ; x5 = x1 + x2
   
+## _2. I-Type (Immediate)_
+_**Functionality:**_ Used for operations that require an immediate value, including arithmetic, logical, load, and control-flow instructions.   
+_**Example:**_ addi x5, x1, 10  ; x5 = x1 + 10
