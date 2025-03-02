@@ -24,3 +24,7 @@ _**Example:**_  add x5, x1, x2 ; x5 = x1 + x2
 ## _2. I-Type (Immediate)_
 _**Functionality:**_ Used for operations that require an immediate value, including arithmetic, logical, load, and control-flow instructions.   
 _**Example:**_ addi x5, x1, 10  ; x5 = x1 + 10
+
+## _3. S-Type (Store)_
+_**Functionality:**_ Handles store instructions, where data from a register is written to memory.   
+_**Example:**_ sw x5, 20(x1)  # Store word from x5 to memory address (x1 + 20)   
