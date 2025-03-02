@@ -221,7 +221,30 @@ opcode = 0010011 (addi instruction)
 #32-bit Instruction:     
 ![image](https://github.com/user-attachments/assets/7c387bf6-3208-4b33-a0e8-4a3b1c44928d)   
 
-## 9. 
+## 9. xor a5,a4,a5
+```
+The instruction xor a5, a4, a5 in RISC-V is an XOR instruction that performs a bitwise XOR between the values in registers a4 and a5, and stores the result in register a5.
+
+Breakdown of xor a5, a4, a5:
+opcode: The opcode for the xor instruction is 0110011 (for R-type instructions).
+funct3: The funct3 for xor is 100 (for bitwise XOR).
+funct7: The funct7 for xor is 0000000.
+rs1: Register a4 is register 10 → 01010.
+rs2: Register a5 is register 11 → 01011.
+rd: Register a5 (destination register) is register 11 → 01011.
+
+Final 32-bit Instruction for xor a5, a4, a5:
+funct7 = 0000000 (for XOR operation)
+rs2 = 01011 (a5 register)
+rs1 = 01010 (a4 register)
+funct3 = 100 (for XOR)
+rd = 01011 (a5 register)
+opcode = 0110011 (R-type for xor)
+```
+#32-bit Instruction:    
+![image](https://github.com/user-attachments/assets/7d932eeb-9f40-43be-bb23-2e53565bda56)
+
+  
 
 
 
