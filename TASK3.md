@@ -118,6 +118,31 @@ opcode = 0000011 (for load word instruction).
 #32-bit Instruction:    
 ![image](https://github.com/user-attachments/assets/12f42dbe-3647-4db2-97f3-b6dab88c2b72)
 
+## 6. addw a5, a4, a5   
+```
+The instruction addw a5, a4, a5 in RISC-V is an Add Word (addw) instruction, which performs a 32-bit addition of the values in registers a4 and a5, and stores the result in register a5.
+
+addw a5, a4, a5:
+opcode: The opcode for the addw instruction is 0110011 (for R-type instructions).
+funct3: The funct3 for addw is 000 (for addition).
+funct7: The funct7 for addw is 0000000.
+rs1: Register a4 is register 10 → 01010.
+rs2: Register a5 is register 11 → 01011.
+rd: Register a5 (destination) is register 11 → 01011.
+
+I-type Format (R-type):
+addw a5, a4, a5:
+funct7 = 0000000 (add operation)
+rs2 = 01011 (a5 register)
+rs1 = 01010 (a4 register)
+funct3 = 000 (add)
+rd = 01011 (a5 register)
+opcode = 0110011 (R-type for addw)
+```
+#32-bit Instruction:
+![image](https://github.com/user-attachments/assets/47feb334-5037-4c2c-ab09-778e7446bda8)
+
+
 
 
 
