@@ -51,10 +51,12 @@ rs1 = 00010 (sp register, register 2)
 funct3 = 000 (addition operation)
 rd = 00010 (sp register, register 2)
 opcode = 0010011 (for addi instruction)
-
-Final 32-bit Instruction (I-type):11111111111100000010000000100011
-In hexadecimal:0xFF5FF06B
 ```
+
+#32-bit Instruction:
+
+![image](https://github.com/user-attachments/assets/5884e2e5-8b7c-4c95-80be-740e58d752f5)
+
 
 
 
