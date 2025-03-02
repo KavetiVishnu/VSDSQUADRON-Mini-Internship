@@ -14,9 +14,7 @@ The RISC-V Instruction Set Architecture (ISA) defines six standard instruction f
 
    <img width="616" alt="image" src="https://github.com/user-attachments/assets/2ae752f3-a817-41c5-b5c5-563c1771fc1b" />    
 
-   
-
-# Identification of 15 Unique RISC-V Instructions from Application Code (via riscv-objdump)   
+     
 
 ## _1. R-Type (Register-Register)_   
 _**Functionality:**_  Used for arithmetic and logical operations that involve two source registers and one destination register.  
@@ -41,6 +39,10 @@ _**Example:**_ lui x5, 0x12345  ; Load upper immediate 0x12345000 into x5
 ## _6. J-Type (Jump)_
 _**Functionality:**_ Used for jump and link operations, commonly for function calls and control flow changes.     
 _**Example:**_ jal x1, 100  ; Jump to PC + 100 and store return address in x1      
+
+
+# Identification of 15 Unique RISC-V Instructions from Application Code (via riscv-objdump)    
+
 
 
 ## 1. addi sp, sp, -32   
