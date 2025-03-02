@@ -168,8 +168,34 @@ opcode = 1101111 (for jump instruction).
 #32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/2aa6d2e6-b1a9-4e5d-989e-d8c695e3a4a9)
 
+## 8. bne a5, a4, 101ac      
+```
+The instruction bne a5, a4, 101ac is a Branch if Not Equal (bne) instruction in RISC-V. It branches to the address PC + 101ac if the values in registers a5 and a4 are not equal.
 
+bne a5, a4, 101ac:
+opcode: The opcode for bne is 1100011 (for branch instructions).
+funct3: The funct3 for bne is 001 (for "not equal" comparison).
+rs1: Register a5 (register 17) → 10001.
+rs2: Register a4 (register 16) → 10000.
+Immediate: The immediate value 101ac is the offset to the branch target, which is 0x101ac. Since the immediate field in the instruction format is signed, the value will be represented in 12 bits, calculated relative to the current program counter (PC). The offset needs to be divided by 2 because RISC-V branch offsets are in terms of 2-byte instructions.
 
+I-type Format for Branch Instructions:
+Calculation of Immediate:    
+Immediate = 101ac in hexadecimal = 6604 in decimal.
+The branch offset is 6604 divided by 2 = 3302 (decimal).
+Convert 3302 to 12-bit two's complement: 0000 1101 0010.  
+
+imm[12] = 0 (MSB of immediate)
+imm[10:5] = 000110
+rs2 = 10000 (a4 register)
+rs1 = 10001 (a5 register)
+funct3 = 001 (for bne)
+imm[4:1] = 0010
+imm[11] = 0 (LSB of immediate)
+opcode = 1100011 (branch instruction opcode)
+```
+#32-bit Instruction:   
+![image](https://github.com/user-attachments/assets/df046b80-8b11-4b77-93f8-7f9c20ca2113)
 
 
 
