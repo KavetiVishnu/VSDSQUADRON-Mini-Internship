@@ -139,7 +139,7 @@ funct3 = 000 (add)
 rd = 01011 (a5 register)
 opcode = 0110011 (R-type for addw)
 ```
-#32-bit Instruction:
+#32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/47feb334-5037-4c2c-ab09-778e7446bda8)
 
 
