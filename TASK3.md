@@ -197,6 +197,29 @@ opcode = 1100011 (branch instruction opcode)
 #32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/df046b80-8b11-4b77-93f8-7f9c20ca2113)
 
+## 8. mv a2, a4   
+```
+The instruction mv a2, a4 in RISC-V is a Move instruction, which copies the value from register a4 (register 10) to register a2 (register 8).
+
+In RISC-V, the mv instruction is not a real instruction. It is a pseudo-instruction that gets translated into the addi (Add Immediate) instruction with an immediate value of 0. Essentially, it’s equivalent to:
+
+Breakdown of addi a2, a4, 0:
+opcode: The opcode for addi is 0010011.
+rs1: Register a4 (which is register 10) → 01010.
+rd: Register a2 (which is register 8) → 01000.
+imm: The immediate value is 0 → 000000000000 in binary.
+funct3: The funct3 value for addi is 000 (for addition).
+funct7: This is not used for addi with an immediate of 0.
+
+Final 32-bit Instruction for addi a2, a4, 0:
+imm[11:0] = 000000000000 (immediate value 0)
+rs1 = 01010 (a4 register)
+funct3 = 000 (addition)
+rd = 01000 (a2 register)
+opcode = 0010011 (addi instruction)
+```
+#32-bit Instruction:     
+![image](https://github.com/user-attachments/assets/7c387bf6-3208-4b33-a0e8-4a3b1c44928d)
 
 
 
