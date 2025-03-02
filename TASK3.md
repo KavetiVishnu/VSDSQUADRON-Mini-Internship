@@ -27,4 +27,4 @@ _**Example:**_ addi x5, x1, 10  ; x5 = x1 + 10
 
 ## _3. S-Type (Store)_
 _**Functionality:**_ Handles store instructions, where data from a register is written to memory.   
-_**Example:**_ sw x5, 20(x1)  # Store word from x5 to memory address (x1 + 20)   
+_**Example:**_ sw x5, 20(x1)  ; Store word from x5 to memory address (x1 + 20)   
