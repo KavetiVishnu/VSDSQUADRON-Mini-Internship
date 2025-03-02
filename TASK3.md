@@ -264,7 +264,33 @@ rd = 01010 (a0 register)
 opcode = 0110111 (LUI instruction)
 ```
 #32-bit Instruction:   
-![image](https://github.com/user-attachments/assets/d2442c86-2ddc-4272-9d18-04d81cb5f706)
+![image](https://github.com/user-attachments/assets/d2442c86-2ddc-4272-9d18-04d81cb5f706)    
+
+## 11. and a5, a4, a5   
+```
+The instruction and a5, a4, a5 in RISC-V is an AND instruction that performs a bitwise AND operation between the values in registers a4 and a5, and stores the result in register a5.
+
+Breakdown of and a5, a4, a5:
+opcode: The opcode for the and instruction is 0110011 (for R-type instructions).
+funct3: The funct3 for and is 111 (for bitwise AND).
+funct7: The funct7 for and is 0000000.
+rs1: Register a4 is register 10 → 01010.
+rs2: Register a5 is register 11 → 01011.
+rd: Register a5 (destination register) is register 11 → 01011.
+
+R-type Format:
+Final 32-bit Instruction for and a5, a4, a5:
+funct7 = 0000000 (for AND operation)
+rs2 = 01011 (a5 register)
+rs1 = 01010 (a4 register)
+funct3 = 111 (for AND)
+rd = 01011 (a5 register)
+opcode = 0110011 (R-type for and)
+```
+#32-bit Instruction:   
+![image](https://github.com/user-attachments/assets/9f81353a-41c9-449b-8b6a-048f984a02a2)
+
+
 
  
 
