@@ -219,7 +219,9 @@ rd = 01000 (a2 register)
 opcode = 0010011 (addi instruction)
 ```
 #32-bit Instruction:     
-![image](https://github.com/user-attachments/assets/7c387bf6-3208-4b33-a0e8-4a3b1c44928d)
+![image](https://github.com/user-attachments/assets/7c387bf6-3208-4b33-a0e8-4a3b1c44928d)   
+
+## 9. 
 
 
 
