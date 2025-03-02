@@ -85,16 +85,17 @@ opcode = 0100011 (store instruction opcode)
 ```
 The instruction li a5, 10 is a Load Immediate instruction in RISC-V, which loads the immediate value 10 into the register a5 (which is register 17 in RISC-V). Since RISC-V doesn’t have a direct li (Load Immediate) instruction, it is typically implemented using the LUI (Load Upper Immediate) and ADDI (Add Immediate) instructions to load larger immediate values. But for the immediate value 10, we can directly use the ADDI instruction.  
 
-Instruction:
+**Instruction:**
 li a5, 10 can be broken down as:
 addi a5, x0, 10
-Where:
+  
 a5 = register 17 → 10001
 x0 = register 0 (the zero register, which always contains 0) → 00000
 Immediate = 10 → 000000000001010 (10 in binary)
 funct3 = 000 (for addition operation)
 opcode = 0010011 (for addi instruction)
-Breakdown for addi a5, x0, 10:
+
+addi a5, x0, 10:       
 imm[11:0] = 000000000001010 (10 in binary)
 rs1 = 00000 (x0 register)
 funct3 = 000
