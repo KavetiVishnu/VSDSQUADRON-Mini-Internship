@@ -11,3 +11,13 @@ The RISC-V Instruction Set Architecture (ISA) defines six standard instruction f
 **4. B-Type** – Branch operations  
 **5. U-Type** – Upper Immediate operations  
 **6. J-Type** – Jump operations  
+
+## 1. R-Type (Register-Register)
+_**Functionality:**_  Used for arithmetic and logical operations that involve two source registers and one destination register.
+_**Format:**_
+
+| funct7 (7 bits) | rs2 (5 bits) | rs1 (5 bits) | funct3 (3 bits) | rd (5 bits) | opcode (7 bits) |   
+
+_**Example:**_
+
+add x5, x1, x2  # x5 = x1 + x2
