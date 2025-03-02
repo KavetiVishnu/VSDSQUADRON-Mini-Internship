@@ -29,4 +29,21 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   
 ##  <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/c50db42157cc7190ab60296c14ac2f27b4b6c632/TASK3.md">**_Identification of 15 Unique RISC-V Instructions._**</a>     
 
-## My Implementation Approach for <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/c50db42157cc7190ab60296c14ac2f27b4b6c632/TASK3.md">**TASK3:**</a>     
+## My Implementation Approach for <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/c50db42157cc7190ab60296c14ac2f27b4b6c632/TASK3.md">**TASK3:**</a>        
+
+**step-1:** _In Step 1, I extensively studied the RISC-V Instruction Set Architecture (ISA) using resources from Google books and academic papers. I thoroughly learned each instruction format, analyzed examples, and grasped the underlying principles of the ISA. This deep understanding empowered me to confidently identify, interpret, and explain 15 unique RISC-V instructions, which were essential for the subsequent tasks in my implementation._   
+
+**step-2:**      
+
+**step-3:**
+
+
+
+
+
+
+
+
+
+
+
