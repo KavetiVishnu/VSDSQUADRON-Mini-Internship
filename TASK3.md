@@ -42,7 +42,7 @@ _**Functionality:**_ Used for jump and link operations, commonly for function ca
 _**Example:**_ jal x1, 100  ; Jump to PC + 100 and store return address in x1      
 
 
-## 1. addi sp, sp, -32   (10184)
+## 1. addi sp, sp, -32   
    
 ```
 Type = I-type instruction
@@ -57,7 +57,7 @@ opcode = 0010011 (for addi instruction)
 ![image](https://github.com/user-attachments/assets/5884e2e5-8b7c-4c95-80be-740e58d752f5)
 
 
-## 2. sd ra, 24(sp)  (10188)
+## 2. sd ra, 24(sp)  
 ```
 Type = I-type Format (for Store Doubleword (sd) instruction)  
 imm[11:0] = 0000000000011000 (24 in binary)
@@ -69,7 +69,7 @@ opcode = 0100011 (for store instructions)
 #32-bit Instruction:    
 ![image](https://github.com/user-attachments/assets/bea25d1c-05f5-448d-83b0-e1986f5ca0db)
 
-## 3. sw zero, -20(s0) (10194)
+## 3. sw zero, -20(s0) 
 ```
 Type = I-type Format (for Store Word (sw) instruction)
 imm[11:0] = 1111111111111100 (in two's complement for -20).
@@ -81,7 +81,7 @@ opcode = 0100011 (store instruction opcode)
 #32-bit Instruction:   
 ![image](https://github.com/user-attachments/assets/5e908fcd-3d63-45bd-a1ae-5240e91315e7)
 
-## 4. li a5, 10 (10198)
+## 4. li a5, 10 
 ```
 The instruction li a5, 10 is a Load Immediate instruction in RISC-V, which loads the immediate value 10 into the register a5 (which is register 17 in RISC-V). Since RISC-V doesn’t have a direct li (Load Immediate) instruction, it is typically implemented using the LUI (Load Upper Immediate) and ADDI (Add Immediate) instructions to load larger immediate values. But for the immediate value 10, we can directly use the ADDI instruction.  
 
@@ -106,9 +106,17 @@ opcode = 0010011 (addi instruction)
 ![image](https://github.com/user-attachments/assets/bee90f94-4a9e-400c-83dc-091a4427984e)   
 
 
-
-
-
+## 5. lw a4, -20(s0)   
+```
+Type = Load Word (lw)
+imm[11:0] = 1111111111111100 (in two's complement for -20).
+rs1 = 01000 (s0 register).
+funct3 = 010 (for lw).
+rd = 01010 (a4 register).
+opcode = 0000011 (for load word instruction).
+```
+#32-bit Instruction:    
+![image](https://github.com/user-attachments/assets/12f42dbe-3647-4db2-97f3-b6dab88c2b72)
 
 
 
