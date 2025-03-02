@@ -39,4 +39,48 @@ _**Example:**_ lui x5, 0x12345  ; Load upper immediate 0x12345000 into x5
 
 ## _6. J-Type (Jump)_
 _**Functionality:**_ Used for jump and link operations, commonly for function calls and control flow changes.     
-_**Example:**_ jal x1, 100  ; Jump to PC + 100 and store return address in x1
+_**Example:**_ jal x1, 100  ; Jump to PC + 100 and store return address in x1      
+
+
+## 1. addi sp, sp, -32
+   
+```
+Type = I-type instruction
+imm[11:0] = 1111111111110000 (2's complement of -32)
+rs1 = 00010 (sp register, register 2)
+funct3 = 000 (addition operation)
+rd = 00010 (sp register, register 2)
+opcode = 0010011 (for addi instruction)
+
+Final 32-bit Instruction (I-type):11111111111100000010000000100011
+In hexadecimal:0xFF5FF06B
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
