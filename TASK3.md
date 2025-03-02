@@ -66,7 +66,7 @@ rs1 = 00010 (sp register)
 funct3 = 011
 opcode = 0100011 (for store instructions)
 ```
-#32-bit Instruction:    
+### 32-bit Instruction:    
 ![image](https://github.com/user-attachments/assets/bea25d1c-05f5-448d-83b0-e1986f5ca0db)
 
 ## 3. sw zero, -20(s0) 
