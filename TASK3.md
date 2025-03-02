@@ -292,6 +292,7 @@ opcode = 0110011 (R-type for and)
 
 ## 12. auipc t1, 0x0   
 ```
+Type  = Add Upper Immediate to PC (AUIPC)
 imm[31:12] = 000000000000 (shifted immediate value).
 rd = 00110 (t1 register).
 opcode = 0010111 (for auipc).
@@ -311,7 +312,7 @@ opcode = 1100111 (JALR instruction)
 #32-bit Instruction:       
 ![image](https://github.com/user-attachments/assets/1b62d7b4-91df-4104-ae6a-228138c39030)
 
-
+## 14. 
 
 
 
