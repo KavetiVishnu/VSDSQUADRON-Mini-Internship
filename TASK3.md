@@ -312,7 +312,41 @@ opcode = 1100111 (JALR instruction)
 #32-bit Instruction:       
 ![image](https://github.com/user-attachments/assets/1b62d7b4-91df-4104-ae6a-228138c39030)
 
-## 14. 
+## 14. beqz a5, 100cb   
+```
+Type = Branch if Equal to Zero (BEQZ)
+imm[12] = 0 (most significant bit of the 12-bit immediate).
+imm[10:5] = 000000.
+rs2 = 00000 (x0 register).
+rs1 = 01010 (a5 register).
+funct3 = 000 (for equality comparison).
+imm[4:1] = 1101 (lower bits of the immediate).
+imm[11] = 0 (most significant bit of the immediate).
+opcode = 1100011 (for the beq instruction).
+```
+#32-bit Instruction:      
+![image](https://github.com/user-attachments/assets/41943549-d359-4c5e-a2be-0e77ad5ee48c)   
+
+## 15. lui a5, 0x2b   
+```
+Type = Load Upper Immediate (LUI)
+
+opcode: The opcode for LUI is 0110111.
+rd: The destination register is a5 (register 15) → 01111.
+imm: The immediate value is 0x2b. The immediate value is shifted by 12 bits (because it is a 20-bit immediate for LUI), which means we multiply the immediate by 4096 (2^12). In this case:
+0x2b becomes 0x2b000 when shifted left by 12 bits.
+funct3: This is 000 for the LUI instruction (not used in this case).
+funct7: This is also 0000000 for the LUI instruction.
+
+Final 32-bit Instruction for lui a5, 0x2b:
+imm[31:12] = 0000000000101011 (shifted value of 0x2b).
+rd = 01111 (a5 register).
+opcode = 0110111 (LUI instruction).
+```
+#32-bit Instruction:   
+![image](https://github.com/user-attachments/assets/cbdf11f1-0052-4cdf-a2d4-422f878325f2)  
+
+
 
 
 
