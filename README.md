@@ -43,10 +43,13 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 
 ## My Implementation Approach for <a href="https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/tree/f183fb9032f6cfb8412f1047350306445334f86a/TASK-4.md">**TASK4:**</a> 
 
+**step-1:** _The first step in my implementation was setting up the simulation environment. I began by creating a dedicated project directory and cloning the necessary Verilog design and testbench files from GitHub. Once the files were in place, I compiled and simulated the Verilog code using Icarus Verilog (iverilog and vvp). After successfully running the simulation, I used GTKWave to observe the waveform, ensuring that the design functioned correctly and produced meaningful outputs._
 
+**step-2:** _Next, I focused on executing the RISC-V core by running functional simulations to validate the execution of instructions. I carefully examined how the instruction decoder, registers, and control signals interacted during simulation. By cross-verifying the outputs, I ensured that the RISC-V core operated as expected. This step was crucial in confirming the correctness of the design and detecting any discrepancies that needed adjustments._ 
 
+**step-3:**_Finally, I analyzed the simulation results to identify and validate 10 distinct RISC-V instructions. I carefully observed their execution, ensuring that each instruction was correctly decoded and executed within the simulated environment. By documenting the instruction formats and their behaviors, I could further validate the implementation, ensuring it aligned with the expected functionality of a RISC-V processor._   
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 
 
