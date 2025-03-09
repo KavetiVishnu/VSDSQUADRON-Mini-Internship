@@ -47,7 +47,8 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 
 **step-2:** _Next, I focused on executing the RISC-V core by running functional simulations to validate the execution of instructions. I carefully examined how the instruction decoder, registers, and control signals interacted during simulation. By cross-verifying the outputs, I ensured that the RISC-V core operated as expected. This step was crucial in confirming the correctness of the design and detecting any discrepancies that needed adjustments._ 
 
-**step-3:** _Finally, I analyzed the simulation results to identify and validate <a href=" https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/f183fb9032f6cfb8412f1047350306445334f86a/TASK-4.md/Instructions.md">**_10 distinct RISC-V instructions_**</a>  . I carefully observed their execution, ensuring that each instruction was correctly decoded and executed within the simulated environment. By documenting the instruction formats and their behaviors, I could further validate the implementation, ensuring it aligned with the expected functionality of a RISC-V processor._   
+**step-3:** _Finally, I analyzed the simulation results to identify and validate 
+<a href=" https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship/blob/f183fb9032f6cfb8412f1047350306445334f86a/TASK-4.md/Instructions.md">10 distinct RISC-V instructions</a>  . I carefully observed their execution, ensuring that each instruction was correctly decoded and executed within the simulated environment. By documenting the instruction formats and their behaviors, I could further validate the implementation, ensuring it aligned with the expected functionality of a RISC-V processor._   
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
