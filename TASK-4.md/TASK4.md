@@ -3,8 +3,8 @@
 Navigate to the desktop and created a new directory named Vishnu:
 ```
 $ cd Desktop
-$ mkdir Vishnu
-$ cd Vishnu
+$ mkdir vishnu
+$ cd vishnu
 ```
 
 ## 2. Cloning the GitHub Repository
