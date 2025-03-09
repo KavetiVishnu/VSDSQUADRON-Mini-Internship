@@ -39,7 +39,7 @@ The **VSDSquadron Mini Internship 2025** focuses on RISC-V architecture and open
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
-
+Conducting a Functional Simulation Experiment with RISC-V Core
 
 
 
