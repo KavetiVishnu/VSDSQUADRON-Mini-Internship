@@ -10,23 +10,23 @@ $ cd Vishnu
 ## 2. Cloning the GitHub Repository
 Copy the design code and testbench code from the provided GitHub repository to local system:
 ```
-$ git clone https://github.com/KeerthiPatil/VSDSQUADRON_MINI_INTERNSHIP.git
-$ cd VSDSQUADRON_MINI_INTERNSHIP
+$ git clone https://github.com/KavetiVishnu/VSDSQUADRON-Mini-Internship.git
+$ cd VSDSQUADRON-Mini-Internship
 ```
-The design code: ins_RV32EC.v
-The testbench code: ins_RV32EC_tb.v  
+The design code: iiitb_rv32i.v
+The testbench code: iiitb_rv32i_tb.v  
 
 ## 3. Running and Simulating the Verilog Code
 Use Icarus Verilog (iverilog) to compile and simulate the design:
 ```
-$ iverilog -o VSDSQUADRON_MINI_INTERNSHIP ins_RV32EC.v ins_RV32EC_tb.v
-$ vvp VSDSQUADRON_MINI_INTERNSHIP
+$ iverilog -o VSDSQUADRON-Mini-Internship iiitb_rv32i.v iiitb_rv32i_tb.v
+$ vvp VSDSQUADRON-Mini-Internship
 ```
 ## 4. Viewing the Simulation Waveform in GTKWave     
 
 To visualize the waveform, GTKWave is used
 ```
-$ gtkwave ins_RV32EC.vcd
+$ gtkwave iiitb_rv32i.vcd
 ```
 This setup allowed to successfully simulate the RISC-V processor and analyze the waveforms. 
 
